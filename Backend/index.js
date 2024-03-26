@@ -6,9 +6,11 @@ const {ProtectedRoute}=require("./Routes/protected.route")
 const {FetchRoute}=require("./Routes/api.fetch")
 const swaggerui=require("swagger-ui-express")
 const swaggerJSDoc = require("swagger-jsdoc");
+const cors=require("cors")
 
 const app=express()
 app.use(express.json())
+app.use(cors())
 
 //swagger
 const options={
@@ -22,7 +24,7 @@ const options={
             {url:"http://localhost:3000"},
         ]
     },apis:[
-        "./routes/*.js"
+        "./Routes/*.js"
     ]
 }
 
