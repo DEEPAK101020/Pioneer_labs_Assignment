@@ -18,7 +18,7 @@
 
 ## Deployed links
 
-- Backend:
+- Backend:https://pioneer-labs-assignment-wxni.onrender.com/
 
 ### Task1: Implement User Authentication with JWT
 
@@ -69,10 +69,9 @@
 }
 ```
 
-### Task2  Create API Endpoints for Data Retrieval
 
 - API Endpoint:
-- /api/data
+- https://api.publicapis.org/entries/data/fetch/
 - Method: GET
 - Used to retrieve data about api
 - Able to filter data using category=CategoryName in request query
