@@ -20,9 +20,44 @@
 
 - Backend:https://pioneer-labs-assignment-wxni.onrender.com/
 
-### Task1: Implement User Authentication with JWT
+ ###Implement User Authentication with JWT
 
 #### API Endpoints:
+
+- /user/alldata
+  - Used to register user with name,email and password
+  - Method: GET
+
+  ```json
+  {
+  "user": [
+    {
+      "_id": "66028fc40ebf21e2f639541c",
+      "name": "Deepak",
+      "email": "dk2@gmail.com",
+      "password": "$2b$05$heHmw03mI/jD8s5PAd0vx.NtK0bn6BU3mnJk43ZCBAK7x1hXZpWAK"
+    },
+    {
+      "_id": "6602bbd2d81d236e71b83010",
+      "name": "deep",
+      "email": "dk@gmail.com",
+      "password": "$2b$05$L/fyout2XLW0UGkRibfVH.hi9D8E4bvCpkvC.LYkxA8I3nC4C7VD."
+    },
+    {
+      "_id": "6602f571ede028891e69bb76",
+      "name": "pl",
+      "email": "pk@gmail.com",
+      "password": "$2b$05$9Od.umQ54lHBqhI4B4KSju9wqM5HnAmUeHbn021ahWssWSNlYTTXS"
+    },
+    {
+      "_id": "6602fdd0df4481dbf350914c",
+      "name": "bhaskar",
+      "email": "bh@email.com",
+      "password": "$2b$05$4Xf5zS5.y4FUMLLEZEkKeu1sM6XdAw3yblwqvcVckoUmKVpEz/11a"
+    }
+  ]
+  ```
+
 
 - /user/registration
   - Used to register user with name,email and password
