@@ -126,4 +126,23 @@
 ]
 
 ```
+# Implementing Swagger Documentation and Securing API Endpoint
+
+##Implement Swagger Documentation
+
+Swagger documentation has been implemented for this project. You can access the documentation [here](https://pioneer-labs-assignment-wxni.onrender.com/swagger/).
+
+##Secure API Endpoint for Authenticated Users Only
+
+### API Endpoint: `/admin/protected/`
+
+To access the `admin/protected/` endpoint, an access token must be passed in the headers with the `Authorization` key.
+
+Example using URL:
+```bash
+curl -X 'GET' \
+  'https://pioneer-labs-assignment-wxni.onrender.com/admin/protected/' \
+  -H 'accept: application/json' \
+  -H 'Authorization: Bearer <YOUR_ACCESS_TOKEN>'
+
 
