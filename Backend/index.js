@@ -22,6 +22,8 @@ const options={
         },
         servers:[
             {url:"http://localhost:3000"},
+            {url:"https://pioneer-labs-assignment-wxni.onrender.com/"}
+            
         ]
     },apis:[
         "./Routes/*.js"
