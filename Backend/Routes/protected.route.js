@@ -11,7 +11,7 @@ ProtectedRoute.use(auth)
 
 /**
  * @swagger
- * /protected:
+ * admin/protected:
  *   get:
  *     summary: Get protected data
  *     tags: [Protected]
