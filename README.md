@@ -1,3 +1,7 @@
+# Backend 
+
+This is the backend API for user registration, login, logout. It provides endpoints for user authentication, data fetching  pagination, filtering.
+
 ## Technologies used:
 - Nodejs
 - Expressjs
