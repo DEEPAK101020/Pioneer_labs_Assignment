@@ -8,9 +8,10 @@ const {auth}=require("../Middleware/auth")
 
 //auth
 ProtectedRoute.use(auth)
+
 /**
  * @swagger
- * /admin/protected:
+ * /protected:
  *   get:
  *     summary: Get protected data
  *     tags: [Protected]
@@ -50,6 +51,7 @@ ProtectedRoute.use(auth)
  *       scheme: bearer
  *       bearerFormat: JWT
  */
+
 
 ProtectedRoute.get("/protected",(req,res)=>{
     let username=req.body.name;
