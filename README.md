@@ -18,7 +18,7 @@
 
 ## Deployed links
 
-- Backend:
+- Backend:https://pioneer-labs-assignment-wxni.onrender.com/
 
 ### Task1: Implement User Authentication with JWT
 
